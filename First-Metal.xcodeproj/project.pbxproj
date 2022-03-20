@@ -13,6 +13,7 @@
 		8EC500F727E75BCD00CC9F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC500F527E75BCD00CC9F94 /* Main.storyboard */; };
 		8EC500F927E75BD300CC9F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC500F827E75BD300CC9F94 /* Assets.xcassets */; };
 		8EC500FC27E75BD300CC9F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC500FA27E75BD300CC9F94 /* LaunchScreen.storyboard */; };
+		8EC5010427E75E3B00CC9F94 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5010327E75E3B00CC9F94 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8EC500F827E75BD300CC9F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EC500FB27E75BD300CC9F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EC500FD27E75BD300CC9F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC5010327E75E3B00CC9F94 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8EC500EF27E75BCD00CC9F94 /* AppDelegate.swift */,
 				8EC500F127E75BCD00CC9F94 /* SceneDelegate.swift */,
 				8EC500F327E75BCD00CC9F94 /* ViewController.swift */,
+				8EC5010327E75E3B00CC9F94 /* Shaders.metal */,
 				8EC500F527E75BCD00CC9F94 /* Main.storyboard */,
 				8EC500F827E75BD300CC9F94 /* Assets.xcassets */,
 				8EC500FA27E75BD300CC9F94 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC5010427E75E3B00CC9F94 /* Shaders.metal in Sources */,
 				8EC500F427E75BCD00CC9F94 /* ViewController.swift in Sources */,
 				8EC500F027E75BCD00CC9F94 /* AppDelegate.swift in Sources */,
 				8EC500F227E75BCD00CC9F94 /* SceneDelegate.swift in Sources */,
